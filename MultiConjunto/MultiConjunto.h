@@ -4,27 +4,32 @@
 template <typename T>
 class MultiConjunto
 {
+private:
+    // Vector de almacenamiento de elementos
+    T c[100];
+    // Indica el número de elementos en el multiconjunto
+    int num;
+    
+    // ------------------------- auxiliares --------------------
+    // Desplaza todos los elementos hacia la izquierda desde esa posición 
+    void desplaza(const int &posicion);
+
 public:
-    MultiConjunto();
     // Constructor
-    bool esVacio() const;
+    MultiConjunto();
     // Comprueba si el multiconjunto es o no vacío
-    int cardinalidad() const;
+    bool esVacio() const;
     // Devuelve el número de elementos
-    void anade(const T &objeto);
+    int cardinalidad() const { return const & num; }
     // Añade un objeto de tipo T al multiconjunto
     // Se permiten elementos repetidos
-    void elimina(const T &objeto);
+    void anade(const T &objeto);
     // Elimina todas las ocurrencias del objeto
     // pasado como parámetro
-    bool pertenece(const T &objeto) const;
+    void elimina(const T &objeto);
     // Comprueba si el objeto pasado como parámetro
     // existe en el multiconjunto
-private:
-    T c[100];
-    // Vector de almacenamiento de elementos
-    int num;
-    // Indica el número de elementos en el multiconjunto
+    bool pertenece(const T &objeto) const;
 };
 
 #endif
