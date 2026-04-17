@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1776384640 source:c:\users\javie\documents\github\uni\ed2_prac1\persona\persona.cpp
+	"Persona.h"
+
+1776385495 c:\users\javie\documents\github\uni\ed2_prac1\persona\persona.h
+	<string>
+	<iostream>
+

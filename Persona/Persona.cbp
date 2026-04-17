@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="MultiConjunto" />
+		<Option title="Persona" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/MultiConjunto" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Persona" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -15,16 +15,15 @@
 				<Option createStaticLib="1" />
 				<Compiler>
 					<Add option="-Wall" />
-					<Add option="-g" />
 					<Add option="-DBUILD_DLL" />
-					<Add directory="include" />
+					<Add option="-g" />
 				</Compiler>
 				<Linker>
-					<Add library="C:/Users/javie/Documents/Github/UNI/ED2_Prac1/MultiConjunto/Persona.o" />
+					<Add library="user32" />
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/MultiConjunto" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Persona" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="3" />
 				<Option compiler="gcc" />
@@ -34,7 +33,6 @@
 					<Add option="-Wall" />
 					<Add option="-DBUILD_DLL" />
 					<Add option="-O2" />
-					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -42,8 +40,7 @@
 				</Linker>
 			</Target>
 		</Build>
-		<Unit filename="MultiConjunto.cpp" />
-		<Unit filename="MultiConjunto.h" />
+		<Unit filename="Persona.cpp" />
 		<Unit filename="Persona.h" />
 		<Extensions />
 	</Project>

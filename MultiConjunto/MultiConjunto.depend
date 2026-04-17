@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1776382703 source:c:\users\javie\documents\github\uni\ed2_prac1\multiconjunto\multiconjunto.cpp
+	"MultiConjunto.h"
+	<iostream>
+
+1776383683 c:\users\javie\documents\github\uni\ed2_prac1\multiconjunto\multiconjunto.h
+	<iostream>
+

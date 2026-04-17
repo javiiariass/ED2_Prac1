@@ -15,7 +15,8 @@
 					<Add option="-g" />
 				</Compiler>
 				<Linker>
-					<Add library="MultiConjunto.o" />
+					<Add library="C:/Users/javie/Documents/Github/UNI/ED2_Prac1/User/MultiConjunto.o" />
+					<Add library="C:/Users/javie/Documents/Github/UNI/ED2_Prac1/User/Persona.o" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -36,6 +37,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="MultiConjunto.h" />
+		<Unit filename="Persona.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

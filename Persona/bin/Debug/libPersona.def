@@ -1,0 +1,11 @@
+EXPORTS
+    _ZN7Persona7setEdadEi @1
+    _ZN7Persona9setNombreERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE @2
+    _ZN7PersonaC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi @3
+    _ZN7PersonaC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi @4
+    _ZNK7Persona7getEdadEv @5
+    _ZNK7Persona9getNombreB5cxx11Ev @6
+    _ZNK7PersonaeqERKS_ @7
+    _ZNSt11char_traitsIcE7compareEPKcS2_y @8
+    _ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_ @9
+    _ZlsRSoRK7Persona @10
