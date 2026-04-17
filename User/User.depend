@@ -1,4 +1,13 @@
 # depslib dependency file v1.0
-1776091343 source:c:\users\javie\documents\github\uni\ed2_prac1\user\main.cpp
+1776385084 source:c:\users\javie\documents\github\uni\ed2_prac1\user\main.cpp
+	<iostream>
+	"MultiConjunto.h"
+	"Persona.h"
+
+1776383683 c:\users\javie\documents\github\uni\ed2_prac1\user\multiconjunto.h
+	<iostream>
+
+1776385495 c:\users\javie\documents\github\uni\ed2_prac1\user\persona.h
+	<string>
 	<iostream>
 
